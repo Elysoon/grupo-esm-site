@@ -87,7 +87,7 @@
       ],
       "situacao": "[PREENCHER]",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "diag": {
         "ramos": [
           "outro",
@@ -122,7 +122,7 @@
       ],
       "situacao": "[PREENCHER]",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "diag": {
         "ramos": [
           "loja"
@@ -151,7 +151,7 @@
       ],
       "situacao": "[PREENCHER]",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "diag": {
         "ramos": [
           "servicos",
@@ -181,7 +181,7 @@
       ],
       "situacao": "[PREENCHER]",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "diag": {
         "ramos": [
           "seguranca",
@@ -216,7 +216,7 @@
       ],
       "situacao": "[PREENCHER]",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "diag": {
         "ramos": [
           "condominio"
@@ -246,7 +246,7 @@
       ],
       "situacao": "[PREENCHER]",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "diag": {
         "ramos": [
           "seguranca",
@@ -275,7 +275,7 @@
       ],
       "situacao": "[PREENCHER]",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "diag": {
         "ramos": [
           "cftv"
@@ -306,7 +306,7 @@
       ],
       "situacao": "[PREENCHER]",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "diag": {
         "ramos": [
           "seguranca",
@@ -337,7 +337,7 @@
       ],
       "situacao": "[PREENCHER]",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "diag": {
         "ramos": [
           "outro",
@@ -373,7 +373,7 @@
       ],
       "situacao": "[PREENCHER]",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "diag": {
         "ramos": [
           "servicos",
@@ -402,7 +402,7 @@
       ],
       "situacao": "desenvolvimento",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "preco": "[PREENCHER]",
       "linkCompra": "",
       "diag": {
@@ -432,7 +432,7 @@
       ],
       "situacao": "desenvolvimento",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "preco": "[PREENCHER]",
       "linkCompra": "",
       "diag": {
@@ -465,7 +465,7 @@
       ],
       "situacao": "desenvolvimento",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "preco": "[PREENCHER]",
       "linkCompra": "",
       "diag": {
@@ -495,7 +495,7 @@
       ],
       "situacao": "desenvolvimento",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "preco": "[PREENCHER]",
       "linkCompra": "",
       "diag": {
@@ -525,7 +525,7 @@
       ],
       "situacao": "desenvolvimento",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "preco": "[PREENCHER]",
       "linkCompra": "",
       "diag": {
@@ -556,7 +556,7 @@
       ],
       "situacao": "desenvolvimento",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "preco": "[PREENCHER]",
       "linkCompra": "",
       "diag": {
@@ -587,7 +587,7 @@
       ],
       "situacao": "desenvolvimento",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "preco": "[PREENCHER]",
       "linkCompra": "",
       "diag": {
@@ -620,7 +620,7 @@
       ],
       "situacao": "encomenda",
       "fornecedor": "Grupo ESM",
-      "cnpj": "43.067.742/0001-47",
+      "cnpj": "",
       "diag": {
         "ramos": [
           "outro",

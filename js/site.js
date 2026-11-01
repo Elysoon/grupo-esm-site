@@ -274,7 +274,7 @@
     var a=acao(s), b=el('a',link&&!pendente(s.preco)?'btn lg lg-clear':'btn lg lg-tinta',a.txt); b.href=wa(a.msg); b.target='_blank'; b.rel='noopener noreferrer'; ac.appendChild(b);
     var d=el('button','btn lg lg-clear','Qual sistema é para mim?'); d.type='button'; d.setAttribute('data-diagnostico',''); d.addEventListener('click',function(){abrirDiag(d);}); ac.appendChild(d);
     // Identificação de quem vende (exigida na venda pela internet)
-    document.getElementById('sFornecido').textContent='Fornecido por: '+s.fornecedor+' – CNPJ '+s.cnpj;
+    document.getElementById('sFornecido').textContent=s.cnpj?'Fornecido por: '+s.fornecedor+' – CNPJ '+s.cnpj:'Sistema do Grupo ESM. A empresa do grupo que fornece este sistema aparece, com razão social e CNPJ, na proposta e no contrato.';
   }
 
   // ---------- Envio pelo WhatsApp com consentimento (contato) ----------
