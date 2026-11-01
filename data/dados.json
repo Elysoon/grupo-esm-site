@@ -69,8 +69,8 @@
   ],
   "sistemas": [
     {
-      "id": "esm-pay",
-      "nome": "ESM Pay",
+      "id": "pagamentos",
+      "nome": "Gateway de pagamentos",
       "pilar": "gestao",
       "segmentos": [
         "Qualquer empresa"
@@ -102,8 +102,8 @@
       "linkCompra": ""
     },
     {
-      "id": "balcao-matcon",
-      "nome": "Balcão MatCon",
+      "id": "material-construcao",
+      "nome": "Gestão para lojas de material de construção",
       "pilar": "gestao",
       "segmentos": [
         "Lojas de material de construção"
@@ -136,8 +136,8 @@
       "linkCompra": ""
     },
     {
-      "id": "esm-orcapro",
-      "nome": "ESM OrçaPro",
+      "id": "orcamentos",
+      "nome": "Gerador de orçamentos",
       "pilar": "gestao",
       "segmentos": [
         "Prestadores de serviço"
@@ -166,7 +166,7 @@
     },
     {
       "id": "ponto-eletronico",
-      "nome": "Ponto eletrônico facial",
+      "nome": "Ponto eletrônico com reconhecimento facial",
       "pilar": "gestao",
       "segmentos": [
         "Empresas com equipe"
@@ -199,8 +199,8 @@
       "linkCompra": ""
     },
     {
-      "id": "esm-condo",
-      "nome": "ESM Condo+",
+      "id": "condominio",
+      "nome": "Gestão de condomínio e portaria",
       "pilar": "operacoes",
       "segmentos": [
         "Condomínios"
@@ -229,8 +229,8 @@
       "linkCompra": ""
     },
     {
-      "id": "controle-ronda",
-      "nome": "Controle de Ronda",
+      "id": "ronda",
+      "nome": "Controle de ronda",
       "pilar": "operacoes",
       "segmentos": [
         "Segurança privada"
@@ -261,8 +261,8 @@
       "linkCompra": ""
     },
     {
-      "id": "ma-tools",
-      "nome": "MA Tools ESM",
+      "id": "ferramentas-cftv",
+      "nome": "Ferramentas para técnicos de CFTV",
       "pilar": "operacoes",
       "segmentos": [
         "Instaladores de CFTV"
@@ -322,8 +322,8 @@
       "linkCompra": ""
     },
     {
-      "id": "esm-bot",
-      "nome": "ESM Bot Manager",
+      "id": "chatbot",
+      "nome": "Chatbot de WhatsApp",
       "pilar": "tecnologia",
       "segmentos": [
         "Atendimento"
@@ -354,8 +354,8 @@
       "linkCompra": ""
     },
     {
-      "id": "resolve-ai",
-      "nome": "Resolve Aí",
+      "id": "marketplace",
+      "nome": "Marketplace de serviços",
       "pilar": "tecnologia",
       "segmentos": [
         "Prestadores de serviço"
@@ -388,8 +388,8 @@
       "naLoja": false
     },
     {
-      "id": "esm-crm",
-      "nome": "ESM CRM",
+      "id": "crm",
+      "nome": "CRM para vendas",
       "pilar": "gestao",
       "segmentos": [
         "Qualquer empresa"
@@ -418,8 +418,8 @@
       }
     },
     {
-      "id": "esm-automacao",
-      "nome": "ESM Automação",
+      "id": "automacao",
+      "nome": "Automação de tarefas",
       "pilar": "tecnologia",
       "segmentos": [
         "Qualquer empresa"
