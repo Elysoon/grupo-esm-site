@@ -323,12 +323,12 @@
     },
     {
       "id": "chatbot",
-      "nome": "Chatbot de WhatsApp",
+      "nome": "Atendimento com IA no WhatsApp",
       "pilar": "tecnologia",
       "segmentos": [
         "Atendimento"
       ],
-      "resumo": "Chatbot de WhatsApp para atendimento.",
+      "resumo": "Atende, responde dúvidas e qualifica clientes no WhatsApp, 24 horas por dia.",
       "problema": "Perder cliente porque a mensagem ficou sem resposta fora do horário ou no meio do serviço.",
       "paraQuem": "Empresas que atendem clientes pelo WhatsApp.",
       "recursos": [
@@ -446,6 +446,159 @@
         "dores": [
           "atendimento",
           "outro"
+        ]
+      }
+    },
+    {
+      "id": "cobranca",
+      "nome": "Cobrança e controle de inadimplência",
+      "pilar": "gestao",
+      "segmentos": [
+        "Clínicas",
+        "Prestadores de serviço"
+      ],
+      "resumo": "Mostra quem pagou, quem atrasou e envia lembretes de cobrança automáticos.",
+      "problema": "Cobranças controladas em planilha deixam pagamentos atrasados sem acompanhamento.",
+      "paraQuem": "Clínicas, escolas, academias e prestadores com clientes recorrentes.",
+      "recursos": [
+        "[PREENCHER: recursos]"
+      ],
+      "situacao": "desenvolvimento",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "preco": "[PREENCHER]",
+      "linkCompra": "",
+      "diag": {
+        "ramos": [
+          "servicos",
+          "outro"
+        ],
+        "dores": [
+          "pagamentos"
+        ]
+      }
+    },
+    {
+      "id": "agendamento",
+      "nome": "Agendamento online com lembrete",
+      "pilar": "gestao",
+      "segmentos": [
+        "Clínicas",
+        "Salões",
+        "Oficinas"
+      ],
+      "resumo": "O cliente marca o horário sozinho e recebe lembrete no WhatsApp.",
+      "problema": "Marcar e remarcar horário pelo WhatsApp toma tempo e gera faltas.",
+      "paraQuem": "Clínicas, salões, oficinas e qualquer negócio que trabalha com hora marcada.",
+      "recursos": [
+        "[PREENCHER: recursos]"
+      ],
+      "situacao": "desenvolvimento",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "preco": "[PREENCHER]",
+      "linkCompra": "",
+      "diag": {
+        "ramos": [
+          "servicos",
+          "loja",
+          "outro"
+        ],
+        "dores": [
+          "atendimento",
+          "clientes"
+        ]
+      }
+    },
+    {
+      "id": "licitacoes",
+      "nome": "Monitor de licitações",
+      "pilar": "gestao",
+      "segmentos": [
+        "Fornecedores do governo"
+      ],
+      "resumo": "Avisa as licitações do seu ramo assim que são publicadas.",
+      "problema": "Procurar licitações em vários portais todo dia toma horas e deixa oportunidades passarem.",
+      "paraQuem": "Empresas que vendem ou querem vender para órgãos públicos.",
+      "recursos": [
+        "[PREENCHER: recursos]"
+      ],
+      "situacao": "desenvolvimento",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "preco": "[PREENCHER]",
+      "linkCompra": "",
+      "diag": {
+        "ramos": [
+          "seguranca",
+          "cftv",
+          "servicos",
+          "outro"
+        ],
+        "dores": [
+          "clientes"
+        ]
+      }
+    },
+    {
+      "id": "ordens-servico",
+      "nome": "Ordens de serviço e manutenção preventiva",
+      "pilar": "operacoes",
+      "segmentos": [
+        "Técnicos e assistências",
+        "Manutenção"
+      ],
+      "resumo": "Abre, agenda e registra cada serviço em campo, com fotos, checklist e assinatura do cliente.",
+      "problema": "Serviço anotado em papel some, e a manutenção preventiva fica esquecida até o equipamento parar.",
+      "paraQuem": "Empresas de manutenção, assistências técnicas, instaladores e equipes de campo.",
+      "recursos": [
+        "[PREENCHER: recursos]"
+      ],
+      "situacao": "desenvolvimento",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "preco": "[PREENCHER]",
+      "linkCompra": "",
+      "diag": {
+        "ramos": [
+          "cftv",
+          "seguranca",
+          "servicos",
+          "condominio"
+        ],
+        "dores": [
+          "campo",
+          "orcamentos"
+        ]
+      }
+    },
+    {
+      "id": "garantia",
+      "nome": "Garantia e pós-venda",
+      "pilar": "operacoes",
+      "segmentos": [
+        "Lojas e assistências"
+      ],
+      "resumo": "Guarda o histórico de cada cliente e avisa quando a garantia ou a revisão vence.",
+      "problema": "Sem histórico organizado, a empresa perde o controle das garantias e das vendas de retorno.",
+      "paraQuem": "Lojas, assistências técnicas e instaladores.",
+      "recursos": [
+        "[PREENCHER: recursos]"
+      ],
+      "situacao": "desenvolvimento",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "preco": "[PREENCHER]",
+      "linkCompra": "",
+      "diag": {
+        "ramos": [
+          "loja",
+          "cftv",
+          "servicos"
+        ],
+        "dores": [
+          "clientes",
+          "campo"
         ]
       }
     },
