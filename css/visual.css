@@ -219,3 +219,8 @@ footer::before{display:none}
 .loja-acoes{margin-top:28px}
 /* Pendências internas não aparecem no site publicado */
 .todo{display:none!important}
+
+/* Faixa de números (2021, 3, 6, 72 h): margem lateral e tudo centralizado */
+.facts .wrap{padding-left:max(16px,env(safe-area-inset-left,0px))!important;padding-right:max(16px,env(safe-area-inset-right,0px))!important;border:0!important}
+.facts .wrap > div{text-align:center;justify-items:center;padding:26px 12px!important}
+@media (max-width:760px){.facts .wrap > div:nth-child(odd){border-right:1px solid var(--line)!important}}
