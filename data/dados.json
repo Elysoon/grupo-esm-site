@@ -1,0 +1,530 @@
+{
+  "contato": {
+    "whatsapp": "5591996374849",
+    "whatsappTexto": "(91) 99637-4849",
+    "email": "contato@grupoesm.com.br",
+    "redes": []
+  },
+  "empresas": [
+    {
+      "nome": "ESM Security",
+      "selo": "Primeira empresa do grupo",
+      "pilares": [
+        "operacoes"
+      ],
+      "descricao": "Segurança eletrônica feita por quem executa. Atende residências, condomínios, comércios, galpões e órgãos públicos com projeto, instalação e manutenção.",
+      "dados": [
+        {
+          "rotulo": "Fundação",
+          "valor": "10/08/2021"
+        },
+        {
+          "rotulo": "Sede",
+          "valor": "Belém, PA"
+        }
+      ],
+      "site": "https://esmsecurity.com.br",
+      "servicos": [
+        {
+          "grupo": "Segurança eletrônica",
+          "itens": [
+            "CFTV de 4 a 64 câmeras",
+            "Totem de monitoramento",
+            "Alarmes e sensores",
+            "Alarme de incêndio",
+            "Cerca elétrica",
+            "Controle de acesso",
+            "Fechadura digital",
+            "Interfonia"
+          ]
+        },
+        {
+          "grupo": "Automação",
+          "itens": [
+            "Casa inteligente",
+            "Motor de portão",
+            "Fechaduras elétricas",
+            "Porta automática",
+            "Sonorização"
+          ]
+        },
+        {
+          "grupo": "Energia",
+          "itens": [
+            "Solar on-grid",
+            "Solar off-grid",
+            "Carregador de carro elétrico"
+          ]
+        },
+        {
+          "grupo": "TI e redes",
+          "itens": [
+            "Cabeamento Cat5e e Cat6",
+            "Wi-Fi empresarial",
+            "Manutenção de computadores"
+          ]
+        }
+      ]
+    }
+  ],
+  "sistemas": [
+    {
+      "id": "esm-pay",
+      "nome": "ESM Pay",
+      "pilar": "gestao",
+      "segmentos": [
+        "Qualquer empresa"
+      ],
+      "resumo": "Gateway de pagamentos para cobrar por Pix, boleto e cartão.",
+      "problema": "Cobrar clientes à mão, por mensagem e conferência de extrato, toma tempo e deixa pagamentos para trás.",
+      "paraQuem": "Qualquer empresa que vende produtos ou serviços e precisa receber online.",
+      "recursos": [
+        "Cobrança por Pix, boleto e cartão",
+        "Assinaturas recorrentes",
+        "Afiliados e comissões",
+        "Cálculo da taxa repassada ao cliente",
+        "Painel com as cobranças e o status de cada uma"
+      ],
+      "situacao": "[PREENCHER]",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "diag": {
+        "ramos": [
+          "outro",
+          "servicos",
+          "loja"
+        ],
+        "dores": [
+          "pagamentos"
+        ]
+      },
+      "preco": "[PREENCHER]",
+      "linkCompra": ""
+    },
+    {
+      "id": "balcao-matcon",
+      "nome": "Balcão MatCon",
+      "pilar": "gestao",
+      "segmentos": [
+        "Lojas de material de construção"
+      ],
+      "resumo": "Controle de revenda de material de construção, com custo e preço lado a lado.",
+      "problema": "Vender sem saber se o preço cobre o custo, o frete e os impostos faz a loja trabalhar e não lucrar.",
+      "paraQuem": "Lojas e depósitos de material de construção.",
+      "recursos": [
+        "Custo e preço de venda lado a lado, com margem",
+        "Ponto de venda e orçamentos",
+        "Estoque e compras",
+        "Entregas",
+        "Financeiro",
+        "Cálculo de material por metro quadrado",
+        "Operadores com permissões diferentes"
+      ],
+      "situacao": "[PREENCHER]",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "diag": {
+        "ramos": [
+          "loja"
+        ],
+        "dores": [
+          "preco",
+          "orcamentos"
+        ]
+      },
+      "preco": "[PREENCHER]",
+      "linkCompra": ""
+    },
+    {
+      "id": "esm-orcapro",
+      "nome": "ESM OrçaPro",
+      "pilar": "gestao",
+      "segmentos": [
+        "Prestadores de serviço"
+      ],
+      "resumo": "Gerador de orçamentos para prestadores de serviço.",
+      "problema": "Montar orçamento à mão atrasa a resposta ao cliente, e quem responde primeiro costuma fechar.",
+      "paraQuem": "Prestadores de serviço que enviam orçamentos com frequência.",
+      "recursos": [
+        "Geração de orçamentos",
+        "[PREENCHER: demais recursos]"
+      ],
+      "situacao": "[PREENCHER]",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "diag": {
+        "ramos": [
+          "servicos",
+          "cftv"
+        ],
+        "dores": [
+          "orcamentos"
+        ]
+      },
+      "preco": "[PREENCHER]",
+      "linkCompra": ""
+    },
+    {
+      "id": "ponto-eletronico",
+      "nome": "Ponto eletrônico facial",
+      "pilar": "gestao",
+      "segmentos": [
+        "Empresas com equipe"
+      ],
+      "resumo": "Registro de ponto com biometria facial e localização por GPS.",
+      "problema": "Ponto em papel ou planilha gera erro, discussão sobre horas e dificuldade para conferir quem estava no posto.",
+      "paraQuem": "Empresas com funcionários, inclusive equipes que trabalham fora da sede.",
+      "recursos": [
+        "Registro com biometria facial",
+        "Localização por GPS no momento do registro",
+        "[PREENCHER: demais recursos]"
+      ],
+      "situacao": "[PREENCHER]",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "diag": {
+        "ramos": [
+          "seguranca",
+          "condominio",
+          "servicos",
+          "outro",
+          "loja"
+        ],
+        "dores": [
+          "ponto"
+        ],
+        "equipe": true
+      },
+      "preco": "[PREENCHER]",
+      "linkCompra": ""
+    },
+    {
+      "id": "esm-condo",
+      "nome": "ESM Condo+",
+      "pilar": "operacoes",
+      "segmentos": [
+        "Condomínios"
+      ],
+      "resumo": "Portaria, controle de acesso e gestão de condomínio.",
+      "problema": "Portaria e acesso controlados no caderno e no interfone deixam o condomínio sem registro de quem entrou e saiu.",
+      "paraQuem": "Condomínios, síndicos e administradoras.",
+      "recursos": [
+        "Portaria",
+        "Controle de acesso",
+        "Gestão do condomínio",
+        "[PREENCHER: demais recursos]"
+      ],
+      "situacao": "[PREENCHER]",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "diag": {
+        "ramos": [
+          "condominio"
+        ],
+        "dores": [
+          "acesso"
+        ]
+      },
+      "preco": "[PREENCHER]",
+      "linkCompra": ""
+    },
+    {
+      "id": "controle-ronda",
+      "nome": "Controle de Ronda",
+      "pilar": "operacoes",
+      "segmentos": [
+        "Segurança privada"
+      ],
+      "resumo": "Aplicativo de ronda para vigilantes, com painel de acompanhamento. Pode levar a sua marca.",
+      "problema": "Sem registro confiável, a empresa não consegue provar ao cliente que a ronda foi feita.",
+      "paraQuem": "Empresas de segurança privada e condomínios com vigilância própria.",
+      "recursos": [
+        "Aplicativo de ronda para o vigilante",
+        "Painel de acompanhamento",
+        "Versão com a marca da sua empresa (white-label)",
+        "[PREENCHER: demais recursos]"
+      ],
+      "situacao": "[PREENCHER]",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "diag": {
+        "ramos": [
+          "seguranca",
+          "condominio"
+        ],
+        "dores": [
+          "ronda"
+        ],
+        "whitelabel": true
+      },
+      "preco": "[PREENCHER]",
+      "linkCompra": ""
+    },
+    {
+      "id": "ma-tools",
+      "nome": "MA Tools ESM",
+      "pilar": "operacoes",
+      "segmentos": [
+        "Instaladores de CFTV"
+      ],
+      "resumo": "Ferramentas para técnicos de CFTV.",
+      "problema": "[PREENCHER: problema que resolve]",
+      "paraQuem": "Técnicos e instaladores de câmeras de segurança.",
+      "recursos": [
+        "[PREENCHER: recursos]"
+      ],
+      "situacao": "[PREENCHER]",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "diag": {
+        "ramos": [
+          "cftv"
+        ],
+        "dores": [
+          "campo"
+        ]
+      },
+      "preco": "[PREENCHER]",
+      "linkCompra": ""
+    },
+    {
+      "id": "tags-nfc",
+      "nome": "Tags NFC protegidas",
+      "pilar": "operacoes",
+      "segmentos": [
+        "Patrimônio e controle"
+      ],
+      "resumo": "Aplicativo que grava tags NFC presas à conta do dono.",
+      "problema": "Uma tag NFC comum pode ser regravada por qualquer pessoa com um celular, trocando o link da sua placa.",
+      "paraQuem": "Empresas que usam placas e etiquetas NFC: avaliação, cardápio, patrimônio e pontos de ronda.",
+      "recursos": [
+        "Qualquer celular lê a tag; só o dono consegue regravar",
+        "Senha da tag guardada na conta, não no aparelho",
+        "Destino do link alterado sem mexer na tag",
+        "Contagem de toques em cada tag",
+        "Desativar o link se a tag for roubada"
+      ],
+      "situacao": "[PREENCHER]",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "diag": {
+        "ramos": [
+          "seguranca",
+          "loja",
+          "outro",
+          "servicos"
+        ],
+        "dores": [
+          "patrimonio"
+        ]
+      },
+      "preco": "[PREENCHER]",
+      "linkCompra": ""
+    },
+    {
+      "id": "esm-bot",
+      "nome": "ESM Bot Manager",
+      "pilar": "tecnologia",
+      "segmentos": [
+        "Atendimento"
+      ],
+      "resumo": "Chatbot de WhatsApp para atendimento.",
+      "problema": "Perder cliente porque a mensagem ficou sem resposta fora do horário ou no meio do serviço.",
+      "paraQuem": "Empresas que atendem clientes pelo WhatsApp.",
+      "recursos": [
+        "Chatbot no WhatsApp",
+        "[PREENCHER: demais recursos]"
+      ],
+      "situacao": "[PREENCHER]",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "diag": {
+        "ramos": [
+          "outro",
+          "servicos",
+          "loja",
+          "condominio",
+          "seguranca"
+        ],
+        "dores": [
+          "atendimento"
+        ]
+      },
+      "preco": "[PREENCHER]",
+      "linkCompra": ""
+    },
+    {
+      "id": "resolve-ai",
+      "nome": "Resolve Aí",
+      "pilar": "tecnologia",
+      "segmentos": [
+        "Prestadores de serviço"
+      ],
+      "resumo": "Marketplace gratuito que liga clientes a profissionais e empresas de serviço.",
+      "problema": "Quem precisa de um serviço não acha profissionais por perto, e o profissional não acha clientes.",
+      "paraQuem": "Clientes e prestadores de serviço, com ou sem CNPJ.",
+      "recursos": [
+        "Uso gratuito",
+        "Busca de profissionais por bairro e distância",
+        "Pedido de orçamento",
+        "Acompanhamento do serviço por etapas",
+        "Avaliações",
+        "Perfis de empresa e de autônomo"
+      ],
+      "situacao": "[PREENCHER]",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "diag": {
+        "ramos": [
+          "servicos",
+          "cftv"
+        ],
+        "dores": [
+          "clientes"
+        ]
+      },
+      "preco": "Gratuito",
+      "linkCompra": "",
+      "naLoja": false
+    },
+    {
+      "id": "esm-crm",
+      "nome": "ESM CRM",
+      "pilar": "gestao",
+      "segmentos": [
+        "Qualquer empresa"
+      ],
+      "resumo": "Organiza clientes, contatos e negociações em um só lugar.",
+      "problema": "Contatos espalhados no WhatsApp e em planilhas fazem a empresa esquecer de retornar e perder vendas.",
+      "paraQuem": "Empresas que vendem e precisam acompanhar cada cliente até fechar.",
+      "recursos": [
+        "[PREENCHER: recursos]"
+      ],
+      "situacao": "desenvolvimento",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "preco": "[PREENCHER]",
+      "linkCompra": "",
+      "diag": {
+        "ramos": [
+          "outro",
+          "servicos",
+          "loja"
+        ],
+        "dores": [
+          "clientes",
+          "atendimento"
+        ]
+      }
+    },
+    {
+      "id": "esm-automacao",
+      "nome": "ESM Automação",
+      "pilar": "tecnologia",
+      "segmentos": [
+        "Qualquer empresa"
+      ],
+      "resumo": "Automatiza tarefas repetidas da empresa, como avisos, cobranças e relatórios.",
+      "problema": "Tarefas manuais repetidas todos os dias tomam o tempo da equipe e geram esquecimentos.",
+      "paraQuem": "Empresas que repetem as mesmas tarefas no computador e no WhatsApp.",
+      "recursos": [
+        "[PREENCHER: recursos]"
+      ],
+      "situacao": "desenvolvimento",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "preco": "[PREENCHER]",
+      "linkCompra": "",
+      "diag": {
+        "ramos": [
+          "outro",
+          "servicos",
+          "loja",
+          "condominio",
+          "seguranca"
+        ],
+        "dores": [
+          "atendimento",
+          "outro"
+        ]
+      }
+    },
+    {
+      "id": "sob-medida",
+      "nome": "Sites e apps sob medida",
+      "pilar": "tecnologia",
+      "segmentos": [
+        "Qualquer empresa"
+      ],
+      "resumo": "Sites, sistemas web, aplicativos Android e programas com instalador para Windows, feitos para a sua empresa.",
+      "problema": "Quando nenhum sistema pronto serve, a empresa acaba presa a planilhas e processos manuais.",
+      "paraQuem": "Empresas com um processo próprio que precisa de um sistema sob medida.",
+      "recursos": [
+        "Sites",
+        "Sistemas web",
+        "Aplicativos Android",
+        "Programas com instalador para Windows"
+      ],
+      "situacao": "encomenda",
+      "fornecedor": "Grupo ESM",
+      "cnpj": "43.067.742/0001-47",
+      "diag": {
+        "ramos": [
+          "outro",
+          "servicos",
+          "loja",
+          "condominio",
+          "seguranca",
+          "cftv"
+        ],
+        "dores": [
+          "site",
+          "outro"
+        ]
+      },
+      "preco": "[PREENCHER]",
+      "linkCompra": ""
+    }
+  ],
+  "credenciamento": {
+    "planos": [
+      {
+        "id": "basico",
+        "nome": "Básico",
+        "preco": "[PREENCHER]",
+        "beneficios": [
+          "Selo de empresa credenciada Grupo ESM",
+          "Página da sua empresa no site",
+          "Aparece na busca de credenciados da sua cidade"
+        ],
+        "linkCompra": ""
+      },
+      {
+        "id": "destaque",
+        "nome": "Destaque",
+        "preco": "[PREENCHER]",
+        "beneficios": [
+          "Tudo do plano Básico",
+          "Primeiros lugares na busca da sua cidade",
+          "Pedidos de clientes encaminhados pelo grupo"
+        ],
+        "linkCompra": ""
+      },
+      {
+        "id": "parceiro",
+        "nome": "Parceiro",
+        "preco": "[PREENCHER]",
+        "beneficios": [
+          "Tudo do plano Destaque",
+          "Desconto nos sistemas do grupo",
+          "Comissão por indicar sistemas do grupo"
+        ],
+        "linkCompra": ""
+      }
+    ]
+  },
+  "credenciados": [],
+  "afiliados": {
+    "comissao": "[PREENCHER]"
+  }
+}

@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Grupo ESM: marca de Belém (PA) que reúne empresas parceiras e uma frente de tecnologia, com gestão, operações e tecnologia em comum.">
+<link rel="icon" type="image/png" href="img/4-simbolo-icone.png">
+<link rel="apple-touch-icon" href="img/2-perfil-whatsapp-redes.png">
+<meta property="og:image" content="img/1-logo-principal.png">
+<meta property="og:title" content="Grupo ESM · Gestão, Operações e Tecnologia">
+<!-- Segurança: reserva caso a hospedagem não aplique os cabeçalhos do .htaccess / _headers -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="canonical" href="https://grupoesm.com.br/">
+<!--SITE-HEAD-END-->
+<title>Grupo ESM</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="css/site.css">
+<link rel="stylesheet" href="css/visual.css">
+<!--SITE-BODY-START-->
+</head>
+<body>
+<!--SITE-BODY-OPEN-->
+<svg class="sprite" aria-hidden="true">
+  <symbol id="logo" viewBox="6 4 60 62">
+    <polygon points="6,44 22,33.3 22,66 6,66" fill="#262626"/>
+    <polygon points="28,29.3 44,18.7 44,66 28,66" fill="#262626"/>
+    <polygon points="50,14.7 66,4 66,66 50,66" fill="#F22B0C"/>
+  </symbol>
+  <symbol id="logo-claro" viewBox="6 4 60 62">
+    <polygon points="6,44 22,33.3 22,66 6,66" fill="#FFFFFF"/>
+    <polygon points="28,29.3 44,18.7 44,66 28,66" fill="#FFFFFF"/>
+    <polygon points="50,14.7 66,4 66,66 50,66" fill="#F22B0C"/>
+  </symbol>
+</svg>
+
+
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#inicio" aria-label="Grupo ESM, página inicial"><svg class="logo-escuro" aria-hidden="true"><use href="#logo"/></svg><svg class="logo-claro" aria-hidden="true"><use href="#logo-claro"/></svg><span><i>GRUPO</i> <b>ESM</b></span></a>
+    <button class="menu" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav id="nav" aria-label="Páginas">
+      <a href="#inicio" data-r="inicio">Início</a>
+      <div class="drop">
+        <button class="drop-btn" id="servBtn" aria-expanded="false" aria-controls="menuServicos" data-r-grupo="servicos">Serviços <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+        <div class="drop-painel lg" id="menuServicos" hidden>
+          <a href="#servicos-gestao" data-r="servicos-gestao"><b>Gestão</b><span>Programas e apps para organizar a empresa</span></a>
+          <a href="#servicos-operacoes" data-r="servicos-operacoes"><b>Operações</b><span>Sistemas e equipes para o dia a dia e o campo</span></a>
+          <a href="#servicos-tecnologia" data-r="servicos-tecnologia"><b>Tecnologia</b><span>Sites, sistemas web e aplicativos</span></a>
+          <a class="drop-todos" href="#servicos" data-r="servicos">Ver todos os serviços</a>
+        </div>
+      </div>
+      <a href="#sistemas" data-r="sistemas">Sistemas</a>
+      <a href="#loja" data-r="loja">Loja</a>
+      <a href="#empresas" data-r="empresas">Empresas do grupo</a>
+      <a href="#sobre" data-r="sobre">Sobre</a>
+      <a class="cta" href="#contato" data-r="contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo" tabindex="-1">
+<section class="page" data-page="inicio" data-title="Grupo ESM">
+  <div class="wrap hero">
+    <div class="hero-copy">
+      <span class="tagline">Gestão · Operações · Tecnologia</span>
+      <h1 tabindex="-1"><span class="lt">Empresas que</span> <em>crescem</em> <span class="lt">juntas.</span></h1>
+      <p class="lead">O Grupo ESM é a marca que reúne empresas parceiras de Belém, no Pará, sob a mesma gestão. Damos a elas processos, padrão de atendimento e tecnologia própria para crescer.</p>
+      <div class="actions">
+        <button class="btn lg lg-tinta" type="button" data-diagnostico>Qual sistema é para mim?</button>
+        <a class="btn lg lg-clear" href="#servicos">Ver serviços</a>
+      </div>
+    </div>
+    <div class="chart">
+      <svg viewBox="0 0 300 250" role="img" aria-label="As três barras da marca, uma para cada pilar do grupo">
+        <polygon class="b b1" points="0,190 80,142 80,250 0,250" fill="#262626"/>
+        <polygon class="b b2" points="110,124 190,76 190,250 110,250" fill="#5C5C5C"/>
+        <polygon class="b b3" points="220,58 300,10 300,250 220,250" fill="#F22B0C"/>
+      </svg>
+      <div class="legs">
+        <div><b>Gestão</b>Processos, números e caixa</div><span></span>
+        <div><b>Operações</b>Equipe própria em campo</div><span></span>
+        <div><b>Tecnologia</b>Sites, sistemas e apps</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="facts" aria-label="O grupo em números">
+    <div class="wrap">
+      <div><b>2021</b><span>início das operações em Belém</span></div>
+      <div><b>3</b><span>pilares: gestão, operações e tecnologia</span></div>
+      <div><b>6</b><span>sistemas próprios construídos</span></div>
+      <div><b>72 h</b><span>prazo para a proposta sair</span></div>
+    </div>
+  </div>
+
+  <div class="faixa escura" data-tom="escuro">
+    <div class="wrap sec">
+      <div class="sec-head">
+        <span class="kicker">Serviços</span>
+        <h2 class="title"><span class="lt">Três pilares,</span> um só grupo</h2>
+      </div>
+      <div class="pilares">
+        <a class="pilar-card lg" href="#servicos-gestao"><small>Gestão</small><h3>Organizar a empresa</h3><p>Programas e aplicativos para controlar vendas, cobranças, estoque e números.</p><span class="more">Ver gestão</span></a>
+        <a class="pilar-card lg" href="#servicos-operacoes"><small>Operações</small><h3>Fazer acontecer</h3><p>Manutenção preventiva e corretiva, manutenção de computadores e equipe própria em campo.</p><span class="more">Ver operações</span></a>
+        <a class="pilar-card lg" href="#servicos-tecnologia"><small>Tecnologia</small><h3>Inovar com tecnologia</h3><p>Câmeras e alarmes de alta tecnologia, automação, redes, sistemas e aplicativos.</p><span class="more">Ver tecnologia</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="faixa vermelha" data-tom="escuro">
+    <div class="wrap sec cta-faixa">
+      <div>
+        <h2 class="title"><span class="lt">Não sabe por onde</span> começar?</h2>
+        <p class="lead">Responda 5 perguntas e veja quais sistemas combinam com a sua empresa.</p>
+      </div>
+      <button class="btn lg lg-clear" type="button" data-diagnostico>Fazer o diagnóstico</button>
+    </div>
+  </div>
+</section>
+
+<section class="page" data-page="servicos" data-title="Serviços · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / Serviços</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Nossos</span> serviços</h1>
+    <p class="lead">Tudo o que fazemos cabe em três pilares. Escolha o que a sua empresa precisa agora.</p>
+  </div>
+  <div class="faixa escura" data-tom="escuro">
+    <div class="wrap sec">
+      <div class="pilares">
+        <a class="pilar-card lg" href="#servicos-gestao"><small>Gestão</small><h3>Organizar a empresa</h3><p>Programas e aplicativos de gestão, e empresas do grupo que cuidam da gestão.</p><span class="more">Ver gestão</span></a>
+        <a class="pilar-card lg" href="#servicos-operacoes"><small>Operações</small><h3>Fazer acontecer</h3><p>Manutenção preventiva e corretiva, manutenção de computadores e equipe própria em campo.</p><span class="more">Ver operações</span></a>
+        <a class="pilar-card lg" href="#servicos-tecnologia"><small>Tecnologia</small><h3>Inovar com tecnologia</h3><p>Câmeras e alarmes de alta tecnologia, automação, redes, sistemas e aplicativos.</p><span class="more">Ver tecnologia</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page" data-page="servicos-gestao" data-title="Gestão · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / <a href="#servicos">Serviços</a> / Gestão</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Serviços de</span> gestão</h1>
+    <p class="lead">Gestão é saber quanto entra, quanto sai e o que vender. Ajudamos a sua empresa a organizar dinheiro, vendas, estoque e números, com programas fáceis de usar no computador e no celular.</p>
+  </div>
+  <div class="wrap sec">
+    <div class="svc">
+      <div><h3>Dinheiro</h3><p>Cobranças por Pix, cartão e boleto, e controle do que entrou e do que falta receber.</p></div>
+      <div><h3>Vendas</h3><p>Orçamentos rápidos, ponto de venda e acompanhamento de cada cliente.</p></div>
+      <div><h3>Estoque</h3><p>Saber o que tem, o que acabou e o que precisa comprar.</p></div>
+      <div><h3>Números</h3><p>Relatórios simples para decidir com base em dados, toda semana.</p></div>
+    </div>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head"><span class="kicker">Sistemas</span><h2 class="title"><span class="lt">Programas e apps de</span> gestão</h2></div>
+    <div class="grid3" data-lista-sistemas="gestao"></div>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head"><span class="kicker">Empresas do grupo</span><h2 class="title"><span class="lt">Quem cuida da</span> gestão</h2></div>
+    <div class="lista-empresas" data-lista-empresas="gestao" data-vazio="A empresa do grupo dedicada a gestão está em estruturação. Enquanto isso, o atendimento é feito pela equipe do próprio Grupo ESM."></div>
+  </div>
+</section>
+
+<section class="page" data-page="servicos-operacoes" data-title="Operações · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / <a href="#servicos">Serviços</a> / Operações</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Serviços de</span> operações</h1>
+    <p class="lead">Operação é manter tudo funcionando: manutenção preventiva para evitar a falha, corretiva para resolver rápido e equipe própria em campo. Hoje a ESM Security executa essa frente, e outras empresas do grupo vão somar.</p>
+  </div>
+  <div class="wrap sec">
+    <div class="svc">
+      <div><h3>Manutenção preventiva</h3><p>Visitas programadas para revisar equipamentos e sistemas antes que parem.</p></div>
+      <div><h3>Manutenção corretiva</h3><p>Atendimento para consertar o que parou ou deu defeito.</p></div>
+      <div><h3>Computadores e redes</h3><p>Manutenção de computadores, cabeamento e Wi-Fi da empresa.</p></div>
+      <div><h3>Equipe em campo</h3><p>Equipe própria para instalar, manter e registrar cada serviço pelo celular.</p></div>
+    </div>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head"><span class="kicker">Sistemas</span><h2 class="title"><span class="lt">Sistemas de</span> operação</h2></div>
+    <div class="grid3" data-lista-sistemas="operacoes"></div>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head"><span class="kicker">Empresas do grupo</span><h2 class="title"><span class="lt">Quem executa</span> em campo</h2></div>
+    <div class="lista-empresas" data-lista-empresas="operacoes" data-vazio="Nenhuma empresa cadastrada nesta frente ainda."></div>
+  </div>
+</section>
+
+<section class="page" data-page="servicos-tecnologia" data-title="Tecnologia · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / <a href="#servicos">Serviços</a> / Tecnologia</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Serviços de</span> tecnologia</h1>
+    <p class="lead">Tecnologia é levar para a sua empresa o que há de mais novo no mercado: câmeras e alarmes de alta tecnologia, automação, redes e sistemas próprios. Hoje a ESM Security cuida dos equipamentos, e novas empresas do grupo vão ampliar essa frente.</p>
+  </div>
+  <div class="wrap sec">
+    <div class="svc">
+      <div><h3>Segurança eletrônica</h3><p>Câmeras de alta tecnologia, alarmes, cerca elétrica e controle de acesso.</p></div>
+      <div><h3>Automação</h3><p>Casa e empresa inteligentes, portões, fechaduras e portas automáticas.</p></div>
+      <div><h3>Redes e servidores</h3><p>Cabeamento e Wi-Fi hoje; segurança de redes e servidores, com firewall e roteadores MikroTik, em crescimento.</p></div>
+      <div><h3>Sistemas e apps</h3><p>Sites, sistemas web e aplicativos de celular feitos pelo grupo.</p></div>
+    </div>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head">
+      <span class="kicker">Sistemas sob medida</span>
+      <h2 class="title"><span class="lt">Partimos do que</span> já funciona</h2>
+      <p class="lead">Em vez de começar do zero, adaptamos uma base pronta ao seu negócio. Isso encurta o prazo e reduz o custo.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="k">1</span><h3>Conversa e diagnóstico</h3><p>Entendemos como a sua empresa vende, cobra e atende hoje.</p></div>
+      <div class="step"><span class="k">2</span><h3>Base pronta</h3><p>Mostramos uma prévia que dá para clicar antes de fechar.</p></div>
+      <div class="step"><span class="k">3</span><h3>Ajuste à sua marca</h3><p>Logo, cores, produtos e regras do seu negócio.</p></div>
+      <div class="step"><span class="k">4</span><h3>Entrega e suporte</h3><p>Colocamos no ar, treinamos a equipe e seguimos com suporte.</p></div>
+    </div>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head"><span class="kicker">Sistemas</span><h2 class="title"><span class="lt">Sistemas web,</span> apps e sites</h2></div>
+    <div class="grid3" data-lista-sistemas="tecnologia"></div>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head"><span class="kicker">Empresas do grupo</span><h2 class="title"><span class="lt">Quem faz a</span> tecnologia</h2></div>
+    <div class="lista-empresas" data-lista-empresas="tecnologia" data-vazio="A tecnologia é feita hoje pela equipe do próprio Grupo ESM. A empresa do grupo dedicada a tecnologia está em estruturação."></div>
+  </div>
+</section>
+
+<section class="page" data-page="sistemas" data-title="Sistemas · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / Sistemas</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Catálogo de</span> sistemas</h1>
+    <p class="lead">Sistemas criados pelo grupo, testados na operação das nossas empresas. Filtre pelo pilar ou pelo seu ramo, ou deixe o diagnóstico indicar.</p>
+    <div class="actions"><button class="btn lg lg-tinta" type="button" data-diagnostico>Qual sistema é para mim?</button></div>
+  </div>
+  <div class="faixa clara-cor">
+    <div class="wrap sec">
+      <div class="filtros-linha">
+        <div class="filtros" role="group" aria-label="Filtrar por pilar">
+          <button class="chip lg lg-clear" type="button" data-filtro="todos" aria-pressed="true">Todos</button>
+          <button class="chip lg lg-clear" type="button" data-filtro="gestao" aria-pressed="false">Gestão</button>
+          <button class="chip lg lg-clear" type="button" data-filtro="operacoes" aria-pressed="false">Operações</button>
+          <button class="chip lg lg-clear" type="button" data-filtro="tecnologia" aria-pressed="false">Tecnologia</button>
+        </div>
+        <label class="seg-filtro" for="filtroSegmento">Segmento
+          <select id="filtroSegmento"><option value="">Todos os segmentos</option></select>
+        </label>
+      </div>
+      <p class="contagem" id="contagem" aria-live="polite"></p>
+      <div class="grid3" id="catalogo" data-lista-sistemas="todos"></div>
+    </div>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head">
+      <span class="kicker">Como contratar</span>
+      <h2 class="title"><span class="lt">Três formas de</span> usar nossos sistemas</h2>
+      <p class="lead">Os valores dependem do sistema e do tamanho da sua operação. Pergunte no WhatsApp.</p>
+    </div>
+    <div class="steps org">
+      <div class="step"><h3>Assinatura mensal</h3><p>Você usa o sistema pronto e paga por mês. Atualizações e suporte incluídos.</p></div>
+      <div class="step"><h3>Licença com a sua marca</h3><p>O sistema aparece com o nome e a logo da sua empresa (white-label), para você oferecer aos seus clientes.</p></div>
+      <div class="step"><h3>Projeto sob medida</h3><p>Desenvolvemos ou adaptamos um sistema para o processo da sua empresa.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="page" data-page="sistema" data-title="Sistema · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / <a href="#sistemas">Sistemas</a> / <span id="sNomeCrumb"></span></span>
+    <span class="situacao" id="sSituacao"></span>
+    <h1 class="title" tabindex="-1" id="sNome"></h1>
+    <p class="lead" id="sResumo"></p>
+    <div class="actions" id="sAcoes"></div>
+  </div>
+  <div class="faixa clara-cor">
+    <div class="wrap sec detalhe">
+      <article class="lg detalhe-card"><small>Problema que resolve</small><p id="sProblema"></p></article>
+      <article class="lg detalhe-card"><small>Para quem é</small><p id="sParaQuem"></p><div class="tags" id="sSegmentos"></div></article>
+      <article class="lg detalhe-card largo"><small>Principais recursos</small><ul id="sRecursos"></ul></article>
+    </div>
+  </div>
+  <div class="wrap sec">
+    <p class="fornecido" id="sFornecido"></p>
+    <a class="more" href="#sistemas">Voltar ao catálogo</a>
+  </div>
+</section>
+
+<section class="page" data-page="empresas" data-title="Empresas do grupo · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / Empresas do grupo</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Empresas</span> do grupo</h1>
+    <p class="lead">As empresas parceiras fazem parte do Grupo ESM. Cada uma mantém a sua marca, a sua equipe e o seu atendimento, com a gestão e a tecnologia do grupo por trás.</p>
+  </div>
+  <div class="faixa clara-cor">
+    <div class="wrap sec">
+      <div class="lista-empresas" data-lista-empresas="todos" data-vazio="Nenhuma empresa cadastrada ainda."></div>
+      <noscript><p class="note">Ative o JavaScript para ver as empresas do grupo, ou fale com a gente pelo WhatsApp (91) 99637-4849.</p></noscript>
+    </div>
+  </div>
+  <div class="wrap sec">
+    <div class="faca-parte lg">
+      <div>
+        <span class="kicker">Para empresas e parceiros</span>
+        <h2 class="title"><span class="lt">Quer fazer parte do</span> Grupo ESM?</h2>
+        <p>Se a sua empresa atua em gestão, operações ou tecnologia e quer crescer com processos, sistemas e marca em comum, converse com a gente. Cada empresa do grupo mantém o próprio CNPJ e a própria equipe.</p>
+        <p><a class="more" href="#credenciamento">Ou entre na rede como empresa credenciada</a></p>
+      </div>
+      <a class="btn lg lg-tinta" id="btnParceiro" href="https://wa.me/5591996374849" target="_blank" rel="noopener noreferrer">Quero conversar</a>
+    </div>
+  </div>
+</section>
+
+<section class="page" data-page="loja" data-title="Loja · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / Loja</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Loja do</span> Grupo ESM</h1>
+    <p class="lead">Assine os sistemas do grupo e contrate os serviços das empresas do grupo. O pagamento é feito pelo ESM Pay, por Pix, boleto ou cartão.</p>
+  </div>
+  <div class="faixa clara-cor">
+    <div class="wrap sec">
+      <div class="sec-head">
+        <h2 class="title"><span class="lt">Sistemas para</span> assinar</h2>
+        <p class="lead">Enquanto o preço de um sistema não aparece aqui, peça os valores pelo WhatsApp.</p>
+      </div>
+      <div class="grid3" data-lista-loja="sistemas"></div>
+    </div>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head">
+      <h2 class="title"><span class="lt">Serviços das</span> empresas do grupo</h2>
+      <p class="lead">Contratados direto com a empresa do grupo ou com um credenciado da sua cidade, com orçamento feito antes.</p>
+    </div>
+    <div class="svc">
+      <div><h3>Manutenção preventiva</h3><p>Revisão programada de câmeras, alarmes, redes e computadores.</p></div>
+      <div><h3>Manutenção corretiva</h3><p>Conserto do que parou ou deu defeito.</p></div>
+      <div><h3>Instalação</h3><p>Câmeras, alarmes, controle de acesso, automação e redes.</p></div>
+      <div><h3>Sistemas sob medida</h3><p>Sites, sistemas web e aplicativos para o seu processo.</p></div>
+    </div>
+    <div class="actions loja-acoes"><a class="btn lg lg-tinta" id="btnOrcServico" href="https://wa.me/5591996374849" target="_blank" rel="noopener noreferrer">Pedir orçamento</a><a class="btn lg lg-clear" href="#credenciados">Encontrar um credenciado</a></div>
+    <p class="fornecido loja-aviso">Compras feitas pela internet podem ser canceladas em até 7 dias. Veja a <a href="#reembolso">Política de Troca e Reembolso</a>.</p>
+  </div>
+</section>
+
+<section class="page" data-page="credenciamento" data-title="Seja credenciado · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / Seja credenciado</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Seja uma empresa</span> credenciada</h1>
+    <p class="lead">Empresas e profissionais de gestão, operações e tecnologia podem entrar na rede do Grupo ESM. Você ganha selo, página no site e pedidos de clientes da sua região, e continua com o seu CNPJ e a sua equipe.</p>
+    <div class="actions"><a class="btn lg lg-tinta" href="#planos-credenciamento">Ver os planos</a><a class="btn lg lg-clear" href="#credenciados">Ver a rede</a></div>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head"><h2 class="title"><span class="lt">Como</span> funciona</h2></div>
+    <div class="steps">
+      <div class="step"><span class="k">1</span><h3>Cadastro</h3><p>Envie o CNPJ, os serviços que faz e as cidades que atende.</p></div>
+      <div class="step"><span class="k">2</span><h3>Análise</h3><p>Conferimos os documentos e conversamos com você antes de aprovar.</p></div>
+      <div class="step"><span class="k">3</span><h3>Plano</h3><p>Você escolhe o plano e paga pelo ESM Pay.</p></div>
+      <div class="step"><span class="k">4</span><h3>Pedidos</h3><p>Sua empresa aparece no site com o selo e recebe pedidos de clientes.</p></div>
+    </div>
+  </div>
+  <div class="faixa clara-cor" id="planos-credenciamento">
+    <div class="wrap sec">
+      <div class="sec-head"><h2 class="title"><span class="lt">Planos de</span> credenciamento</h2></div>
+      <div class="grid3 planos" data-lista-planos></div>
+    </div>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head"><h2 class="title"><span class="lt">Regras da</span> rede</h2></div>
+    <ul class="regras">
+      <li>A empresa credenciada precisa ter CNPJ ativo.</li>
+      <li>Cada credenciada responde pelo próprio serviço e assina os próprios contratos com o cliente, com o seu CNPJ.</li>
+      <li>O selo e a marca Grupo ESM só podem ser usados enquanto o credenciamento estiver ativo.</li>
+      <li class="todo">[PREENCHER: prazo de aviso para sair da rede e demais regras do contrato de credenciamento]</li>
+    </ul>
+  </div>
+</section>
+
+<section class="page" data-page="credenciados" data-title="Encontre um credenciado · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / Encontre um credenciado</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Encontre um</span> credenciado</h1>
+    <p class="lead">Empresas da rede Grupo ESM que atendem perto de você. Cada uma tem CNPJ próprio e responde pelo serviço que presta.</p>
+  </div>
+  <div class="faixa clara-cor">
+    <div class="wrap sec">
+      <div class="filtros-linha">
+        <label class="seg-filtro" for="filtroCredPilar">Serviço
+          <select id="filtroCredPilar"><option value="">Todos</option><option value="gestao">Gestão</option><option value="operacoes">Operações</option><option value="tecnologia">Tecnologia</option></select>
+        </label>
+        <label class="seg-filtro" for="filtroCredCidade">Cidade
+          <select id="filtroCredCidade"><option value="">Todas</option></select>
+        </label>
+      </div>
+      <p class="contagem" id="contagemCred" aria-live="polite"></p>
+      <div class="grid3" id="listaCred"></div>
+    </div>
+  </div>
+  <div class="wrap sec">
+    <div class="faca-parte lg">
+      <div>
+        <h2 class="title"><span class="lt">Sua empresa</span> na rede</h2>
+        <p>Atende na sua cidade e quer receber pedidos com o selo do Grupo ESM? Veja os planos de credenciamento.</p>
+      </div>
+      <a class="btn lg lg-tinta" href="#credenciamento">Seja credenciado</a>
+    </div>
+  </div>
+</section>
+
+<section class="page" data-page="afiliados" data-title="Afiliados · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / Afiliados</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Indique e</span> ganhe</h1>
+    <p class="lead">Indique os sistemas do Grupo ESM para outras empresas e receba comissão por cada assinatura fechada. A comissão é paga pelo ESM Pay.</p>
+    <div class="actions"><a class="btn lg lg-tinta" id="btnAfiliado" href="https://wa.me/5591996374849" target="_blank" rel="noopener noreferrer">Quero ser afiliado</a></div>
+  </div>
+  <div class="wrap sec">
+    <div class="steps tres">
+      <div class="step"><span class="k">1</span><h3>Cadastro</h3><p>Você se cadastra como afiliado e recebe um link próprio.</p></div>
+      <div class="step"><span class="k">2</span><h3>Indicação</h3><p>Envia o link para empresas que precisam de um sistema.</p></div>
+      <div class="step"><span class="k">3</span><h3>Comissão</h3><p id="afComissao">Quando a empresa assina, você recebe a sua parte.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="page" data-page="sobre" data-title="Sobre · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / Sobre</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Sobre o</span> grupo</h1>
+    <p class="lead">Um grupo paraense que junta gestão, operação em campo e tecnologia própria para fazer pequenas empresas crescerem com método.</p>
+  </div>
+  <div class="wrap sec">
+    <div class="about">
+      <div class="txt">
+        <p>O Grupo ESM começou em 2021, em Belém, com operações de campo feitas por equipe própria: projeto, instalação e manutenção.</p>
+        <p>Com o tempo, a operação passou a precisar de sistemas próprios: orçamentos, cobranças, controle de equipe, site. Construímos tudo dentro de casa. Daí nasceram a frente de tecnologia e a marca Grupo ESM.</p>
+        <p>Hoje o grupo organiza as empresas parceiras sob a mesma gestão e oferece a outras empresas o que já funciona para nós.</p>
+      </div>
+      <div class="pillars">
+        <div class="pillar"><h3>Gestão</h3><p>Números semanais, preço calculado com custo e margem real, caixa separado por empresa.</p></div>
+        <div class="pillar"><h3>Operações</h3><p>Equipe própria. Quem orça é quem executa, sem repassar o serviço para terceiros.</p></div>
+        <div class="pillar"><h3>Tecnologia</h3><p>Sites, sistemas e aplicativos feitos pela casa, usados primeiro nas nossas empresas.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head">
+      <span class="kicker">Como o grupo se organiza</span>
+      <h2 class="title"><span class="lt">Uma marca,</span> várias empresas</h2>
+      <p class="lead">O Grupo ESM funciona como uma marca guarda-chuva: um nome comum que reúne empresas independentes com o mesmo padrão de gestão, atendimento e tecnologia.</p>
+    </div>
+    <div class="steps org">
+      <div class="step"><h3>A marca</h3><p>Grupo ESM é o nome que une as empresas e garante o mesmo jeito de trabalhar em todas elas.</p></div>
+      <div class="step"><h3>As empresas</h3><p>Cada empresa parceira tem CNPJ, equipe e marca próprios. Ela emite a nota fiscal e assina o contrato do serviço que presta.</p></div>
+      <div class="step"><h3>Seu contrato</h3><p>A proposta sempre informa qual empresa vai atender você, com razão social e CNPJ.</p></div>
+      <div class="step"><h3>O próximo passo</h3><p>Com o crescimento, a marca passará para uma holding formal, sem mudar nada para os clientes.</p></div>
+    </div>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head">
+      <span class="kicker">Como trabalhamos</span>
+      <h2 class="title"><span class="lt">Do contato à</span> manutenção</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="k">1</span><h3>Vistoria gratuita</h3><p>Vinte minutos no local ou por vídeo para entender o problema.</p></div>
+      <div class="step"><span class="k">2</span><h3>Proposta em até 72 h</h3><p>Três opções: básica, recomendada e completa.</p></div>
+      <div class="step"><span class="k">3</span><h3>Execução própria</h3><p>Nossa equipe instala ou desenvolve, do começo ao fim.</p></div>
+      <div class="step"><span class="k">4</span><h3>Manutenção mensal</h3><p>Revisões aos 6 e aos 12 meses, suporte e melhorias.</p></div>
+    </div>
+  </div>
+  <div class="wrap sec">
+    <div class="sec-head">
+      <span class="kicker">Onde atuamos</span>
+      <h2 class="title"><span class="lt">Grande</span> Belém</h2>
+      <p class="lead">Serviços em campo na região metropolitana e em Castanhal. Sites e sistemas para todo o Brasil, com atendimento online.</p>
+    </div>
+    <div class="cities"><span class="main">Belém</span><span>Ananindeua</span><span>Marituba</span><span>Benevides</span><span>Santa Bárbara do Pará</span><span>Castanhal</span><span>Outros estados sob consulta</span></div>
+  </div>
+</section>
+
+<section class="page" data-page="contato" data-title="Contato · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / Contato</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Fale com o</span> Grupo ESM</h1>
+    <p class="lead">Conte o que você precisa. A mensagem vai direto para o nosso WhatsApp e respondemos em até 1 hora no horário comercial.</p>
+  </div>
+  <div class="wrap sec ct">
+    <div class="lines">
+      <div><span>WhatsApp</span><b>(91) 99637-4849</b></div>
+      <div><span>E-mail</span><b>contato@grupoesm.com.br</b></div>
+      <div><span>Cidade</span><b>Belém, Pará</b></div>
+    </div>
+    <form id="form" class="lg" novalidate>
+      <div class="row2">
+        <label for="fNome">Seu nome<input id="fNome" autocomplete="name" maxlength="80" placeholder="Nome completo"></label>
+        <label for="fFone">Telefone<input id="fFone" type="tel" inputmode="tel" autocomplete="tel" maxlength="20" placeholder="(91) 90000-0000"></label>
+      </div>
+      <label for="fArea">Assunto
+        <select id="fArea">
+          <option>Pedir demonstração de um sistema</option>
+          <option>Serviços de gestão</option>
+          <option>Serviços de operações</option>
+          <option>Sites, sistemas ou aplicativos</option>
+          <option>Quero fazer parte do Grupo ESM</option>
+          <option>Outro assunto</option>
+        </select>
+      </label>
+      <label for="fMsg">Mensagem<textarea id="fMsg" maxlength="1000" placeholder="Ex.: quero um site para a minha loja"></textarea></label>
+      <label class="consent" for="fOk"><input type="checkbox" id="fOk"><span>Li a <a href="#privacidade">Política de Privacidade</a> e concordo em enviar meus dados pelo WhatsApp para receber o atendimento.</span></label>
+      <a class="btn lg lg-tinta" id="fSend" href="https://wa.me/5591996374849" target="_blank" rel="noopener noreferrer" aria-disabled="true">Enviar pelo WhatsApp</a>
+      <p class="fnote">Este site não grava o que você digita. O WhatsApp abre com a mensagem pronta e você confere antes de enviar.</p>
+    </form>
+  </div>
+</section>
+
+<section class="page" data-page="privacidade" data-title="Política de Privacidade · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / Política de Privacidade</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Política de</span> Privacidade</h1>
+    <p class="lead">Como o Grupo ESM trata os seus dados pessoais neste site, de acordo com a Lei Geral de Proteção de Dados (Lei 13.709/2018).</p>
+    <span class="updated">Última atualização: 31 de outubro de 2026</span>
+  </div>
+  <div class="wrap sec legal-doc">
+    <nav class="toc" aria-label="Índice da política">
+      <a href="#privacidade-quem">1. Quem trata seus dados</a>
+      <a href="#privacidade-dados">2. Dados e finalidades</a>
+      <a href="#privacidade-compartilhamento">3. Compartilhamento</a>
+      <a href="#privacidade-cookies">4. Cookies</a>
+      <a href="#privacidade-prazo">5. Por quanto tempo</a>
+      <a href="#privacidade-seguranca">6. Segurança</a>
+      <a href="#privacidade-direitos">7. Seus direitos</a>
+      <a href="#privacidade-geral">8. Outras informações</a>
+    </nav>
+    <div class="doc">
+      <section id="privacidade-quem">
+        <h2><span>1</span>Quem trata seus dados</h2>
+        <p>O controlador dos dados deste site é o Grupo ESM, CNPJ 43.067.742/0001-47, com sede em Belém, Pará. Quando você contrata um sistema ou serviço, a empresa do grupo que vende também passa a ser controladora dos dados do contrato.</p>
+        <p>Para qualquer assunto sobre privacidade, fale com o nosso canal de atendimento ao titular: <b>contato@grupoesm.com.br</b> ou WhatsApp <b>(91) 99637-4849</b>.</p>
+      </section>
+      <section id="privacidade-dados">
+        <h2><span>2</span>Dados que tratamos e por quê</h2>
+        <p>Este site é institucional. Ele não tem cadastro, login, loja nem área de clientes.</p>
+        <div class="dtable"><table>
+          <thead><tr><th>Dado</th><th>Para que usamos</th><th>Base legal (LGPD)</th></tr></thead>
+          <tbody>
+            <tr><td>Nome, telefone e mensagem que você escreve no formulário de contato</td><td>Responder ao seu pedido e preparar orçamento ou proposta</td><td>Procedimentos preliminares a um contrato, a seu pedido (art. 7º, V)</td></tr>
+            <tr><td>Registros de acesso: endereço IP, data e hora</td><td>Cumprir a guarda obrigatória de registros e proteger o site contra ataques</td><td>Obrigação legal (art. 7º, II, e Marco Civil da Internet, art. 15) e legítimo interesse (art. 7º, IX)</td></tr>
+          </tbody>
+        </table></div>
+        <p>O formulário não grava nada no site. Os dados só chegam até nós quando você toca em <b>Enviar pelo WhatsApp</b> e confirma o envio no aplicativo.</p>
+        <p>Não usamos seus dados para publicidade e não os vendemos.</p>
+      </section>
+      <section id="privacidade-compartilhamento">
+        <h2><span>3</span>Com quem compartilhamos</h2>
+        <ul>
+          <li><b>WhatsApp (Meta):</b> a conversa acontece pelo aplicativo, que segue a sua própria política de privacidade. Os servidores da Meta podem ficar fora do Brasil (transferência internacional, art. 33 da LGPD).</li>
+          <li><b>Empresas parceiras do Grupo ESM:</b> quando o seu pedido for de um serviço de uma empresa parceira, ele é repassado só para ela, para o atendimento.</li>
+          <li><b>Hospedagem do site (GitHub Pages ou Cloudflare Pages):</b> registra dados técnicos de acesso, como o endereço IP, para manter o site seguro. Os servidores dessas empresas podem ficar fora do Brasil (art. 33 da LGPD).</li>
+          <li><b>Autoridades:</b> somente quando houver ordem judicial ou obrigação legal.</li>
+        </ul>
+      </section>
+      <section id="privacidade-cookies">
+        <h2><span>4</span>Cookies e rastreamento</h2>
+        <p>Este site <b>não usa cookies</b>, pixels de anúncio nem ferramentas de rastreamento. As fontes e as imagens ficam hospedadas no nosso próprio servidor, então a sua visita não é informada a terceiros como o Google. Se isso mudar, esta política e um aviso de consentimento serão atualizados antes. Veja a <a href="#cookies">Política de Cookies</a>.</p>
+      </section>
+      <section id="privacidade-prazo">
+        <h2><span>5</span>Por quanto tempo guardamos</h2>
+        <ul>
+          <li><b>Registros de acesso:</b> 6 meses, como exige o Marco Civil da Internet.</li>
+          <li><b>Conversas de atendimento:</b> enquanto durar a negociação ou o contrato e, depois, pelo prazo necessário para cumprir obrigações legais e para exercer direitos em processos.</li>
+        </ul>
+        <p>Depois desses prazos, os dados são apagados ou anonimizados.</p>
+      </section>
+      <section id="privacidade-seguranca">
+        <h2><span>6</span>Como protegemos</h2>
+        <p>O site funciona só com conexão criptografada (HTTPS), bloqueia que seja aberto dentro de outros sites, carrega apenas arquivos do próprio domínio e não guarda dados digitados. O acesso aos nossos canais de atendimento é restrito à equipe responsável.</p>
+        <p>Se acontecer um incidente de segurança que possa causar risco ou dano relevante a você, avisaremos você e a Autoridade Nacional de Proteção de Dados (ANPD), como determina a lei.</p>
+      </section>
+      <section id="privacidade-direitos">
+        <h2><span>7</span>Seus direitos</h2>
+        <p>Pelo art. 18 da LGPD, você pode pedir a qualquer momento:</p>
+        <ul>
+          <li>confirmação de que tratamos seus dados e acesso a eles;</li>
+          <li>correção de dados incompletos, errados ou desatualizados;</li>
+          <li>anonimização, bloqueio ou eliminação de dados desnecessários ou tratados em desacordo com a lei;</li>
+          <li>portabilidade para outro fornecedor;</li>
+          <li>informação sobre com quem compartilhamos seus dados;</li>
+          <li>revogação do consentimento, quando ele for a base do tratamento.</li>
+        </ul>
+        <p>Envie o pedido para <b>contato@grupoesm.com.br</b>. Podemos pedir uma confirmação de identidade antes de atender, para proteger você. Respondemos em até 15 dias.</p>
+        <p>Se não ficar satisfeito, você pode reclamar à ANPD pelo site <b>gov.br/anpd</b>.</p>
+      </section>
+      <section id="privacidade-geral">
+        <h2><span>8</span>Outras informações</h2>
+        <p>Este site não se destina a menores de 18 anos. Quando esta política mudar, a data no topo da página será atualizada. Vale a versão publicada aqui.</p>
+      </section>
+    </div>
+  </div>
+</section>
+
+<section class="page" data-page="termos" data-title="Termos de Uso · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / Termos de Uso</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Termos de</span> Uso</h1>
+    <p class="lead">Regras para usar o site do Grupo ESM. Ao navegar por ele, você concorda com estes termos.</p>
+    <span class="updated">Última atualização: 31 de outubro de 2026</span>
+  </div>
+  <div class="wrap sec legal-doc">
+    <nav class="toc" aria-label="Índice dos termos">
+      <a href="#termos-site">1. Sobre o site</a>
+      <a href="#termos-uso">2. Uso permitido</a>
+      <a href="#termos-marca">3. Marca e conteúdo</a>
+      <a href="#termos-parceiras">4. Empresas parceiras</a>
+      <a href="#termos-responsabilidade">5. Responsabilidade</a>
+      <a href="#termos-lei">6. Lei e foro</a>
+    </nav>
+    <div class="doc">
+      <section id="termos-site">
+        <h2><span>1</span>Sobre o site</h2>
+        <p>Este é o site da marca Grupo ESM, mantido por Grupo ESM, CNPJ 43.067.742/0001-47, com sede em Belém, Pará. Ele apresenta o grupo, as empresas parceiras e os serviços de tecnologia.</p>
+        <p>As informações aqui são de apresentação. Preços, prazos e condições só valem quando estiverem numa proposta ou num contrato por escrito.</p>
+      </section>
+      <section id="termos-uso">
+        <h2><span>2</span>Uso permitido</h2>
+        <p>Você pode navegar, ler e compartilhar os links do site. Não é permitido:</p>
+        <ul>
+          <li>tentar invadir, sobrecarregar ou alterar o site ou os servidores;</li>
+          <li>copiar o site ou partes dele para se passar pelo Grupo ESM ou por suas empresas parceiras;</li>
+          <li>enviar pelo formulário conteúdo falso, ofensivo, ilegal ou dados de outra pessoa sem autorização.</li>
+        </ul>
+      </section>
+      <section id="termos-marca">
+        <h2><span>3</span>Marca e conteúdo</h2>
+        <p>O nome Grupo ESM, a logo, os textos, as imagens e o código deste site pertencem à empresa responsável pela marca Grupo ESM e são protegidos pela Lei de Propriedade Industrial (Lei 9.279/1996) e pela Lei de Direitos Autorais (Lei 9.610/1998). As marcas das empresas parceiras pertencem a elas. O uso exige autorização por escrito.</p>
+      </section>
+      <section id="termos-parceiras">
+        <h2><span>4</span>O grupo e as empresas parceiras</h2>
+        <p>Grupo ESM é uma marca que reúne empresas independentes. Ela não é, por si só, uma empresa com CNPJ próprio e não presta serviços diretamente.</p>
+        <p>Cada empresa parceira tem CNPJ próprio e responde pelos serviços que presta e pelos contratos que assina com os seus clientes. A proposta e o contrato sempre informam a razão social e o CNPJ de quem vai atender você. Os sites de empresas parceiras e de terceiros têm os seus próprios termos e políticas.</p>
+      </section>
+      <section id="termos-responsabilidade">
+        <h2><span>5</span>Disponibilidade e responsabilidade</h2>
+        <p>Trabalhamos para manter o site no ar e com informações corretas, mas ele pode ficar fora do ar para manutenção ou por falhas de terceiros, como a hospedagem ou a internet. Nada nestes termos limita os direitos que você tem pelo Código de Defesa do Consumidor.</p>
+      </section>
+      <section id="termos-lei">
+        <h2><span>6</span>Lei aplicável e foro</h2>
+        <p>Valem as leis do Brasil. Fica eleito o foro de Belém, Pará, ressalvado o direito do consumidor de propor ação no foro do seu próprio domicílio.</p>
+        <p>Dúvidas sobre estes termos: <b>contato@grupoesm.com.br</b>.</p>
+      </section>
+    </div>
+  </div>
+</section>
+<section class="page" data-page="cookies" data-title="Política de Cookies · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / Política de Cookies</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Política de</span> Cookies</h1>
+    <p class="lead">Cookies são pequenos arquivos que alguns sites gravam no seu navegador para lembrar quem você é ou acompanhar o que você faz.</p>
+    <span class="updated">Última atualização: 31 de outubro de 2026</span>
+  </div>
+  <div class="wrap sec">
+    <div class="doc">
+      <section>
+        <h2><span>1</span>Este site não usa cookies</h2>
+        <p>O site do Grupo ESM não grava cookies, não usa pixels de anúncio, não usa ferramentas de estatística e não guarda nada no seu navegador. Por isso ele não mostra aviso de cookies: não há nada para você aceitar ou recusar.</p>
+      </section>
+      <section>
+        <h2><span>2</span>Serviços de terceiros</h2>
+        <p>As fontes, as imagens e os arquivos do site vêm do nosso próprio endereço. Quando você toca em <b>Enviar pelo WhatsApp</b> ou abre o site de uma empresa parceira, você sai do nosso site, e valem as regras de cookies desses serviços.</p>
+      </section>
+      <section>
+        <h2><span>3</span>Se isso mudar</h2>
+        <p>Antes de usar qualquer cookie que não seja estritamente necessário, vamos atualizar esta página e pedir o seu consentimento com um aviso, com as opções de aceitar e de recusar com o mesmo destaque.</p>
+      </section>
+    </div>
+  </div>
+</section>
+
+<section class="page" data-page="reembolso" data-title="Troca e Reembolso · Grupo ESM" hidden>
+  <div class="wrap page-head">
+    <span class="crumb"><a href="#inicio">Início</a> / Política de Troca e Reembolso</span>
+    <h1 class="title" tabindex="-1"><span class="lt">Troca e</span> Reembolso</h1>
+    <p class="lead">Regras para cancelar e pedir reembolso de sistemas e serviços contratados com as empresas do Grupo ESM.</p>
+    <span class="updated">Última atualização: 1º de novembro de 2026</span>
+  </div>
+  <div class="wrap sec">
+    <div class="doc">
+      <section>
+        <h2><span>1</span>Quem responde pela venda</h2>
+        <p>Cada sistema e serviço é vendido por uma empresa do grupo, com CNPJ próprio. O nome e o CNPJ dela aparecem na página do sistema, na proposta e no contrato. Os pedidos de cancelamento e reembolso são atendidos por essa empresa.</p>
+      </section>
+      <section>
+        <h2><span>2</span>Direito de arrependimento: 7 dias</h2>
+        <p>Pelo Código de Defesa do Consumidor (art. 49), quem contrata pela internet, por telefone ou pelo WhatsApp pode desistir em até <b>7 dias</b>, contados da assinatura ou do recebimento do acesso, sem precisar explicar o motivo. Nesse caso, devolvemos todo o valor pago pelo mesmo meio de pagamento.</p>
+      </section>
+      <section>
+        <h2><span>3</span>Assinaturas mensais</h2>
+        <p>Você pode cancelar a qualquer momento pelo WhatsApp ou pelo e-mail. O cancelamento vale a partir do próximo ciclo de cobrança e o acesso continua até o fim do período já pago. <span class="todo">[PREENCHER: confirmar se haverá reembolso proporcional]</span></p>
+      </section>
+      <section>
+        <h2><span>4</span>Licenças com a sua marca e projetos sob medida</h2>
+        <p>Projetos feitos sob encomenda seguem as regras de etapas, entregas e cancelamento escritas no contrato de cada projeto. O direito de arrependimento de 7 dias continua valendo quando a contratação for feita fora de um encontro presencial.</p>
+      </section>
+      <section>
+        <h2><span>5</span>Problemas no sistema</h2>
+        <p>Se o sistema não funcionar como foi contratado, avise pelo WhatsApp. Corrigimos sem custo. Se não for possível corrigir, você pode escolher entre a troca por outro plano, o abatimento no preço ou a devolução do valor, como prevê o Código de Defesa do Consumidor.</p>
+      </section>
+      <section>
+        <h2><span>6</span>Como pedir</h2>
+        <p>WhatsApp <b>(91) 99637-4849</b> ou e-mail <b>contato@grupoesm.com.br</b>, informando o nome do sistema e os dados da contratação. Confirmamos o recebimento do pedido. <span class="todo">[PREENCHER: prazo para devolver o dinheiro]</span></p>
+      </section>
+    </div>
+  </div>
+</section>
+</main>
+<!-- Botão flutuante do WhatsApp -->
+<a class="zap lg lg-clear" href="https://wa.me/5591996374849" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+  <span>WhatsApp</span>
+</a>
+
+<!-- Janela do diagnóstico gratuito -->
+<div class="diag-fundo" id="diagFundo" hidden></div>
+<div class="diag lg" id="diag" role="dialog" aria-modal="true" aria-labelledby="diagTitulo" hidden>
+  <div class="diag-topo">
+    <h2 id="diagTitulo">Qual sistema é para mim?</h2>
+    <button class="diag-fechar" type="button" id="diagFechar" aria-label="Fechar diagnóstico">✕</button>
+  </div>
+  <p class="diag-sub">Cinco perguntas rápidas. No fim, indicamos de 1 a 3 sistemas.</p>
+  <form id="diagForm" novalidate>
+    <label for="dRamo">1. Qual é o seu ramo?
+      <select id="dRamo">
+        <option value="condominio">Condomínio ou administradora</option>
+        <option value="seguranca">Segurança privada</option>
+        <option value="loja">Loja de material de construção</option>
+        <option value="cftv">Instalação de CFTV e segurança eletrônica</option>
+        <option value="servicos">Prestação de serviços</option>
+        <option value="outro">Outro comércio ou serviço</option>
+      </select>
+    </label>
+    <label for="dEquipe">2. Quantas pessoas trabalham na empresa?
+      <select id="dEquipe">
+        <option value="1">Só eu</option>
+        <option value="2">De 2 a 10</option>
+        <option value="11">De 11 a 50</option>
+        <option value="51">Mais de 50</option>
+      </select>
+    </label>
+    <label for="dDor">3. Qual é a maior dor hoje?
+      <select id="dDor">
+        <option value="pagamentos">Receber pagamentos dos clientes</option>
+        <option value="preco">Preço, custo e estoque</option>
+        <option value="orcamentos">Demora para fazer orçamentos</option>
+        <option value="ponto">Controle de ponto da equipe</option>
+        <option value="acesso">Portaria e controle de acesso</option>
+        <option value="ronda">Comprovar as rondas dos vigilantes</option>
+        <option value="atendimento">Atendimento no WhatsApp</option>
+        <option value="patrimonio">Placas, etiquetas e patrimônio</option>
+        <option value="campo">Trabalho técnico em campo</option>
+        <option value="clientes">Encontrar clientes ou profissionais</option>
+        <option value="site">Ter site, sistema ou aplicativo próprio</option>
+      </select>
+    </label>
+    <label for="dHoje">4. Como isso é feito hoje?
+      <select id="dHoje">
+        <option>No papel ou na cabeça</option>
+        <option>Em planilha</option>
+        <option>Tenho um sistema, mas não resolve</option>
+      </select>
+    </label>
+    <label for="dModelo">5. Como você prefere contratar?
+      <select id="dModelo">
+        <option value="assinatura">Assinatura mensal</option>
+        <option value="whitelabel">Com a marca da minha empresa (white-label)</option>
+        <option value="medida">Projeto sob medida</option>
+        <option value="nao-sei">Ainda não sei</option>
+      </select>
+    </label>
+    <button class="btn lg lg-tinta" type="submit">Ver recomendação</button>
+  </form>
+  <div id="diagResultado" hidden>
+    <p class="diag-sub">Pelas suas respostas, estes sistemas combinam com a sua empresa:</p>
+    <div id="diagLista" class="diag-lista"></div>
+    <label class="consent" for="dOk"><input type="checkbox" id="dOk"><span>Li a <a href="#privacidade">Política de Privacidade</a> e concordo em enviar estas respostas pelo WhatsApp.</span></label>
+    <button class="more voltar" type="button" id="diagRefazer">Refazer as perguntas</button>
+  </div>
+</div>
+
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="fmarca">
+        <a class="brand sm" href="#inicio" aria-label="Grupo ESM, página inicial"><svg width="26" height="27" aria-hidden="true"><use href="#logo"/></svg><span><i>GRUPO</i> <b>ESM</b></span></a>
+        <p class="flema">Gestão · Operações · Tecnologia</p>
+        <p>Belém, Pará</p>
+      </div>
+      <div><h4>Páginas</h4><a href="#servicos">Serviços</a><a href="#sistemas">Sistemas</a><a href="#empresas">Empresas do grupo</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></div>
+      <div><h4>Rede Grupo ESM</h4><a href="#loja">Loja</a><a href="#credenciamento">Seja credenciado</a><a href="#credenciados">Encontre um credenciado</a><a href="#afiliados">Afiliados</a></div>
+      <div><h4>Fale com a gente</h4><a href="https://wa.me/5591996374849" target="_blank" rel="noopener noreferrer">WhatsApp (91) 99637-4849</a><div class="redes" id="redes"></div></div>
+    </div>
+    <div class="fbot"><span>© <span id="ano">2026</span> Grupo ESM</span><nav class="legal" aria-label="Documentos legais"><a href="#privacidade">Política de Privacidade</a><a href="#termos">Termos de Uso</a><a href="#cookies">Política de Cookies</a><a href="#reembolso">Troca e Reembolso</a></nav></div>
+  </div>
+</footer>
+
+<script src="js/site.js" defer></script>
+<!--SITE-BODY-END-->
+</body>
+</html>

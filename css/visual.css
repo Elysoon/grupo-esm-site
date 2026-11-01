@@ -1,0 +1,221 @@
+/* ==========================================================================
+   VISUAL MINIMALISTA do Grupo ESM
+   Substitui o antigo liquid-glass.css. Sem vidro, sem formas decorativas.
+   Regras: fundo branco, superfícies sólidas, filetes finos em vez de sombras,
+   vermelho só no botão principal e em poucos destaques.
+   Ajuste as cores neste bloco :root.
+   ========================================================================== */
+:root{
+  --v-fundo:#FFFFFF;          /* fundo da página */
+  --v-suave:#F5F5F7;          /* faixas e áreas de apoio (tom usado pela Apple) */
+  --v-filete:#E5E5E7;         /* bordas finas */
+  --v-filete-forte:#D2D2D7;
+  --v-texto:#262626;          /* grafite da marca */
+  --v-texto-2:#5F5F5F;        /* texto secundário (contraste AA) */
+  --v-escuro:#262626;         /* faixa escura */
+  --v-escuro-card:#2F2F2F;
+  --v-acento:#C9200A;         /* vermelho do botão principal (texto branco AA) */
+  --v-acento-hover:#A81A08;
+  --v-raio:18px;              /* cantos dos cartões */
+}
+
+/* ---------- Nada de vidro nem formas de fundo ---------- */
+#lg-filtros,.fundo-marca,.faixa-formas{display:none!important}
+.lg{background:var(--v-fundo);color:var(--v-texto);border-radius:var(--v-raio);-webkit-backdrop-filter:none!important;backdrop-filter:none!important;box-shadow:none}
+.lg::before,.lg::after{content:none!important;display:none!important}
+.kicker{color:var(--v-texto-2)}
+.kicker::before{background:var(--v-filete-forte)}
+.more{color:var(--v-texto)}
+
+/* ---------- Cabeçalho: branco, sólido, filete fino ---------- */
+header,header.lg{position:sticky;top:0;z-index:50;background:var(--v-fundo);border-radius:0;border-bottom:1px solid var(--v-filete);padding-top:env(safe-area-inset-top,0px)}
+header::after{display:none}
+header nav > a:not(.cta),header .drop-btn{color:var(--v-texto-2)}
+header nav > a:not(.cta):hover,header .drop-btn:hover,header nav > a.on,header .drop-btn.on{color:var(--v-texto)}
+nav a.on::after{background:var(--v-texto);height:1.5px}
+nav a.cta{border-radius:999px;background:var(--v-acento)}
+nav a.cta:hover{background:var(--v-acento-hover)}
+.brand .logo-claro{display:none}
+
+/* ---------- Botões ---------- */
+.btn{border-radius:999px;padding:14px 24px;box-shadow:none}
+.btn.lg{border-radius:999px}
+.btn.lg-tinta,.btn.lg.lg-tinta{background:var(--v-acento);color:#FFFFFF}
+.btn.lg-tinta:hover,.btn.lg.lg-tinta:hover{background:var(--v-acento-hover)}
+.btn.lg-clear,.btn.lg.lg-clear{background:transparent;color:var(--v-texto);box-shadow:inset 0 0 0 1px var(--v-filete-forte)}
+.btn.lg-clear:hover,.btn.lg.lg-clear:hover{box-shadow:inset 0 0 0 1px var(--v-texto)}
+.btn[aria-disabled="true"]{background:#8A8784}
+
+/* ---------- Menu Serviços ---------- */
+.drop{position:relative}
+.drop-btn{font:inherit;background:none;border:0;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-weight:700;font-size:14px;letter-spacing:.04em;padding:10px 14px}
+.drop-btn svg{width:12px;height:12px;transition:transform .25s}
+.drop-btn[aria-expanded="true"] svg{transform:rotate(180deg)}
+.drop-painel{position:absolute;top:calc(100% + 10px);left:0;min-width:320px;padding:8px;display:grid;gap:2px;background:var(--v-fundo);border:1px solid var(--v-filete);border-radius:16px;box-shadow:0 12px 32px rgba(0,0,0,.08)}
+.drop-painel.flutuante{position:fixed;z-index:80;top:0;left:0}
+.drop-painel a{display:grid;gap:2px;padding:12px 14px;border-radius:10px;text-decoration:none;color:var(--v-texto)}
+.drop-painel a:hover,.drop-painel a:focus-visible{background:var(--v-suave)}
+.drop-painel a b{font-size:15px;font-weight:900;letter-spacing:.04em}
+.drop-painel a span{font-size:13.5px;color:var(--v-texto-2)}
+.drop-painel .drop-todos{font-weight:700;font-size:13px;border-top:1px solid var(--v-filete);border-radius:0 0 10px 10px;margin-top:4px}
+.drop-painel.abrindo{animation:v-surgir .18s ease-out both}
+@keyframes v-surgir{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+
+/* ---------- Faixas: uma escura, as outras em cinza bem claro ---------- */
+.faixa{position:relative}
+.faixa.escura{background:var(--v-escuro);color:#FFFFFF}
+.faixa.vermelha,.faixa.clara-cor{background:var(--v-suave);color:var(--v-texto)}
+.faixa .wrap{position:relative}
+.faixa.escura .title,.faixa.escura .kicker,.faixa.escura .lead{color:#FFFFFF}
+.faixa.escura .kicker::before{background:rgba(255,255,255,.35)}
+.faixa.vermelha .title{color:var(--v-texto)}
+.faixa.vermelha .lead{color:var(--v-texto-2)}
+.cta-faixa{display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between}
+.cta-faixa > div{display:grid;gap:10px}
+.faixa.vermelha .btn.lg-clear{background:var(--v-acento);color:#FFFFFF;box-shadow:none}
+.faixa.vermelha .btn.lg-clear:hover{background:var(--v-acento-hover)}
+
+/* ---------- Cartões (pilares, sistemas, detalhes, empresas) ---------- */
+.pilares{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.pilar-card,.proj,.detalhe-card,.partner,.faca-parte,form.lg,.vazio{background:var(--v-fundo);border:1px solid var(--v-filete);border-radius:var(--v-raio);box-shadow:none}
+.pilar-card{display:grid;gap:10px;align-content:start;padding:28px;text-decoration:none;color:var(--v-texto);transition:border-color .2s}
+.pilar-card:hover,.proj:hover{border-color:var(--v-filete-forte)}
+.pilar-card h3{font-weight:900;font-size:22px;text-transform:uppercase;letter-spacing:.05em}
+.pilar-card p{color:var(--v-texto-2)}
+.pilar-card small,.detalhe-card small{font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--v-texto-2)}
+.faixa.escura .pilar-card{background:var(--v-escuro-card);border-color:rgba(255,255,255,.1);color:#FFFFFF}
+.faixa.escura .pilar-card:hover{border-color:rgba(255,255,255,.28)}
+.faixa.escura .pilar-card h3,.faixa.escura .pilar-card .more{color:#FFFFFF}
+.faixa.escura .pilar-card p,.faixa.escura .pilar-card small{color:#C9C9CC}
+@media (max-width:860px){.pilares{grid-template-columns:minmax(0,1fr)}}
+
+.proj{padding:24px}
+.proj .kind{color:var(--v-texto-2)}
+.proj h3 a{text-decoration:none;color:inherit}
+.proj h3 a:hover{text-decoration:underline;text-underline-offset:4px}
+.proj-acoes{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;margin-top:6px}
+/* Nos cartões, o botão é discreto: o vermelho fica para a ação principal da página */
+.btn-p{padding:10px 18px!important;font-size:12.5px}
+.proj .btn-p,.proj .btn.lg-tinta{background:transparent;color:var(--v-texto);box-shadow:inset 0 0 0 1px var(--v-filete-forte)}
+.proj .btn-p:hover,.proj .btn.lg-tinta:hover{background:var(--v-texto);color:#FFFFFF;box-shadow:none}
+
+.situacao{justify-self:start;display:inline-flex;align-items:center;gap:8px;font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:var(--v-suave);color:var(--v-texto-2);border:0}
+.situacao::before{content:"";width:6px;height:6px;border-radius:50%;background:#8A8784}
+.situacao.s-disponivel::before{background:#1A7F45}
+.situacao.s-desenvolvimento::before{background:#C98A00}
+.situacao.s-encomenda::before{background:var(--v-texto)}
+
+.filtros-linha{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;margin-bottom:8px}
+.filtros{display:flex;flex-wrap:wrap;gap:8px;margin:0}
+.chip{font:inherit;font-weight:700;font-size:14px;padding:9px 18px;border-radius:999px;cursor:pointer;background:transparent;color:var(--v-texto);border:1px solid var(--v-filete-forte)}
+.chip.lg{background:transparent;border-radius:999px}
+.chip:hover{border-color:var(--v-texto)}
+.chip[aria-pressed="true"],.chip.lg[aria-pressed="true"]{background:var(--v-texto);border-color:var(--v-texto);color:#FFFFFF}
+.seg-filtro{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:700;color:var(--v-texto)}
+.seg-filtro select{width:auto;min-width:220px;border-radius:999px;background:var(--v-fundo);padding:9px 16px;border-color:var(--v-filete-forte)}
+.contagem{font-size:13px;font-weight:700;color:var(--v-texto-2);margin:6px 0 18px}
+
+.detalhe{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.detalhe-card{padding:26px;display:grid;gap:12px;align-content:start}
+.detalhe-card.largo{grid-column:1/-1}
+.detalhe-card p{font-size:17px}
+.detalhe-card ul{margin:0;padding-left:20px;display:grid;gap:8px;columns:2}
+.detalhe-card li{color:var(--v-texto-2);font-size:16px;break-inside:avoid}
+@media (max-width:760px){.detalhe{grid-template-columns:minmax(0,1fr)}.detalhe-card ul{columns:1}}
+.fornecido{font-size:12.5px;color:var(--v-texto-2);margin-bottom:14px}
+.page-head .actions{margin-top:6px}
+.page-head .situacao{margin-bottom:-4px}
+
+.partner{overflow:hidden}
+.partner .partner-id{background:var(--v-suave);border-right:1px solid var(--v-filete)}
+.partner .tags span{background:var(--v-suave);border:0;border-radius:999px}
+.badge{color:var(--v-texto);border:1px solid var(--v-filete-forte);border-radius:999px}
+.faca-parte{display:flex;flex-wrap:wrap;gap:20px 32px;align-items:center;justify-content:space-between;padding:32px;background:var(--v-suave);border:0}
+.faca-parte > div{display:grid;gap:10px;max-width:62ch}
+.pilares-emp{font-size:13px;font-weight:700}
+.vazio{padding:22px 24px;color:var(--v-texto-2);max-width:70ch;border-style:dashed}
+
+/* ---------- Formulários ---------- */
+form.lg{padding:28px}
+input,select,textarea,form.lg input,form.lg select,form.lg textarea{background:var(--v-fundo);border:1px solid var(--v-filete-forte);border-radius:12px}
+input:focus,select:focus,textarea:focus{border-color:var(--v-texto);box-shadow:0 0 0 3px rgba(38,38,38,.08)}
+.diag label.consent,form.lg label.consent{display:flex;font-weight:400;font-size:13.5px}
+
+/* ---------- Botão do WhatsApp ---------- */
+.zap{position:fixed;z-index:70;right:max(18px,env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));display:inline-flex;align-items:center;gap:10px;padding:11px 18px 11px 14px;text-decoration:none;font-weight:700;font-size:14px;border-radius:999px;background:var(--v-fundo);border:1px solid var(--v-filete);box-shadow:0 4px 16px rgba(0,0,0,.08)}
+.zap.lg{background:var(--v-fundo);border-radius:999px}
+.zap svg{width:22px;height:22px;color:#1A7F45}
+.zap span{color:var(--v-texto)}
+
+/* ---------- Diagnóstico ---------- */
+.diag-fundo{position:fixed;inset:0;z-index:90;background:rgba(20,20,20,.35)}
+.diag{position:fixed;z-index:95;left:50%;top:50%;width:min(520px,calc(100vw - 32px));max-height:calc(100vh - 40px);overflow:auto;transform:translate(-50%,-50%);padding:28px;display:grid;gap:14px;background:var(--v-fundo);border-radius:20px;box-shadow:0 24px 60px rgba(0,0,0,.18)}
+.diag-topo{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.diag h2{font-weight:900;font-size:22px;text-transform:uppercase;letter-spacing:.05em}
+.diag-sub{font-size:15px;color:var(--v-texto-2)}
+.diag form{display:grid;gap:14px;border:0;padding:0;background:none}
+.diag label{display:grid;gap:6px;font-size:13px;font-weight:700}
+.diag-fechar{width:36px;height:36px;border-radius:50%;border:0;cursor:pointer;background:var(--v-suave);font-size:15px;color:var(--v-texto)}
+.diag-lista{display:grid;gap:10px}
+.diag-item{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:14px 16px;border-radius:14px;border:1px solid var(--v-filete)}
+.diag-item > div{display:grid;gap:2px;min-width:0}
+.diag-item b{font-size:15px}
+.diag-item span{font-size:13.5px;color:var(--v-texto-2)}
+.diag #diagResultado{display:grid;gap:14px}
+.diag .voltar{background:none;border:0;cursor:pointer;justify-self:start;padding:4px 0;font:inherit;font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+@media (max-width:480px){.diag-item{flex-direction:column;align-items:stretch}.diag{padding:20px}}
+
+/* ---------- Menos vermelho espalhado ---------- */
+.step .k{color:var(--v-texto);opacity:.35}
+.cities span{border-radius:999px;border-color:var(--v-filete-forte)}
+.cities span.main{background:var(--v-texto);border-color:var(--v-texto)}
+.note{background:var(--v-suave);border-left-color:var(--v-filete-forte);color:var(--v-texto)}
+.go small{color:var(--v-texto-2)}
+
+/* ---------- Rodapé ---------- */
+footer{background:var(--v-fundo)}
+footer::before{display:none}
+.flema{font-size:12px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--v-texto);margin:4px 0}
+.redes{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+.redes:empty{display:none}
+
+/* ---------- Celular ---------- */
+@media (max-width:900px){
+  nav{background:var(--v-fundo);border:0;border-bottom:1px solid var(--v-filete);box-shadow:0 12px 24px rgba(0,0,0,.06)}
+  .drop-btn{width:100%;justify-content:space-between;padding:13px 4px;border-bottom:1px solid var(--v-filete);border-radius:0;color:var(--v-texto)}
+  .drop-painel{position:static;min-width:0;box-shadow:none;border:0;background:transparent;padding:4px 0 8px}
+  .zap span{display:none}
+  .zap{padding:13px}
+}
+@media (max-width:400px){
+  .seg-filtro{width:100%}
+  .seg-filtro select{flex:1;min-width:0}
+  .proj-acoes .btn-p{width:100%}
+  .faca-parte{padding:22px}
+  .pilar-card,.detalhe-card{padding:22px}
+  .hero h1{font-size:34px}
+}
+@media (prefers-reduced-motion:reduce){.drop-painel.abrindo{animation:none}.pilar-card{transition:none}}
+
+/* ---------- Loja, credenciamento e rede ---------- */
+.fgrid{grid-template-columns:1.4fr 1fr 1fr 1fr}
+@media (max-width:900px){.fgrid{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.fgrid{grid-template-columns:minmax(0,1fr)}}
+.preco{font-weight:900;font-size:20px;color:var(--v-texto);letter-spacing:.01em}
+.preco-pendente{font-weight:700;font-size:14px;color:var(--v-texto-2)}
+.beneficios{margin:4px 0 8px;padding:0;list-style:none;display:grid;gap:8px}
+.beneficios li{position:relative;padding-left:22px;color:var(--v-texto-2);font-size:15.5px}
+.beneficios li::before{content:"";position:absolute;left:2px;top:.55em;width:10px;height:6px;border-left:1.5px solid var(--v-texto);border-bottom:1.5px solid var(--v-texto);transform:rotate(-45deg)}
+.plano{align-content:start}
+.plano .btn-p{justify-self:start;margin-top:auto}
+.regras{margin:0;padding-left:20px;display:grid;gap:10px;max-width:72ch;color:var(--v-texto-2)}
+.steps.tres{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:860px){.steps.tres{grid-template-columns:minmax(0,1fr)}.steps.tres .step{padding-left:0;border-left:0}}
+.loja-aviso{margin-top:20px}
+.loja-aviso a{color:var(--v-texto)}
+.vazio .more{display:inline-block;margin-top:10px}
+.grid3 > .vazio{grid-column:1/-1}
+.menu{border:1px solid var(--v-filete-forte);border-radius:12px}
+.loja-acoes{margin-top:28px}
+/* Pendências internas não aparecem no site publicado */
+.todo{display:none!important}

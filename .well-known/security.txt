@@ -1,0 +1,6 @@
+# Encontrou uma falha de segurança no site do Grupo ESM? Avise por aqui.
+Contact: mailto:contato@grupoesm.com.br
+Expires: 2027-10-31T23:59:59-03:00
+Preferred-Languages: pt-BR, en
+Canonical: https://grupoesm.com.br/.well-known/security.txt
+Policy: https://grupoesm.com.br/#termos

@@ -1,0 +1,8 @@
+# Arquivos do sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Uso só no computador
+*.bat
+ver-site.js
